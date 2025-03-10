@@ -1,0 +1,35 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы сборки и артефакты
+target/
+project/target/
+project/project/
+
+# Лог-файлы и временные файлы
+*.log
+*.bak
+*.swp
+
+# Файлы, генерируемые sbt
+*.class
+*.sbt
+*.iml
+
+# Файлы настройки IDE
+.idea/
+.vscode/
+
+# Файлы настройки IntelliJ
+*.idea/
+
+# Файлы настройки Eclipse
+.classpath
+.project
+.settings/
+
+# Файлы, создаваемые при сборке в контейнеры
+*.jar
+*.war
+*.ear
